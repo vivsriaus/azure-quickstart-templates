@@ -28,7 +28,7 @@
         },
         "vmNamePrefix": {
             "type": "string",
-            "defaultValue": "myVM",
+            "defaultValue": "myVMviv1",
             "metadata": {
               "description": "Prefix to use for VM names"
             }
@@ -56,7 +56,7 @@
         },
         "lbName": {
             "type": "string",
-            "defaultValue": "myLB",
+            "defaultValue": "myLBviv1",
             "metadata": {
               "description": "Load Balancer name"
             }
@@ -70,14 +70,14 @@
         },
         "publicIPAddressName": {
             "type": "string",
-            "defaultValue": "myPublicIP",
+            "defaultValue": "myPublicIPviv1",
             "metadata": {
               "description": "Public IP Name"
             }
         },
         "vnetName": {
             "type": "string",
-            "defaultValue": "myVNET",
+            "defaultValue": "myVNETviv1",
             "metadata": {
               "description": "VNET name"
             }
