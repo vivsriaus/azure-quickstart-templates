@@ -1,20 +1,21 @@
 {
-    "newStorageAccountName" : {
-        "value":"uniqueStorageAccountName"
-    },
-    "adminUsername": {
-        "value": "username"
-    },
-    "adminPassword": {
-        "value": "password"
-    },
-    "dnsNameForPublicIP": {
-        "value": "uniqueDns"
-    },
-    "vmSize": {
-        "value": "Standard_D2"
-    },
-    "sizeOfEachDataDiskInGB" : {
-        "value":"100"
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "GEN-UNIQUE"
+        },
+        "adminPassword": {
+            "value": "GEN-PASSWORD"
+        },
+        "dnsLabelPrefix": {
+            "value": "GEN-UNIQUE"
+        },
+        "vmSize": {
+            "value": "Standard_D3"
+        },
+        "sizeOfEachDataDiskInGB": {
+            "value": "100"
+        }
     }
 }

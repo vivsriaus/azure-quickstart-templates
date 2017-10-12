@@ -1,42 +1,36 @@
 {
-    "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentParameters.json#",
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "newStorageAccountName": {
-            "value": ""
-        },
-        "location": {
-            "value": "East US"
+            "value": "GEN-UNIQUE"
         },
         "publicIPName": {
-            "value": ""
-        },
-        "publicIPAddressType": {
-            "value": "Dynamic"
+            "value": "GEN-UNIQUE"
         },
         "vmName": {
-            "value": ""
+            "value": "GEN-UNIQUE-10"
         },
-        "vmSize": {
-            "value": "Standard_A2"
-        },
-        "adminUserName": {
-            "value": ""
+        "adminUsername": {
+            "value": "GEN-UNIQUE"
         },
         "adminPassword": {
-            "value": ""
+            "value": "GEN-PASSWORD"
         },
         "virtualNetworkName": {
-            "value": ""
+            "value": "GET-PREREQ-virtualNetworkName"
         },
         "virtualNetworkResourceGroup": {
-            "value": ""
+            "value": "GET-PREREQ-virtualNetworkResourceGroup"
         },
         "subnet1Name": {
-            "value": ""
+            "value": "GET-PREREQ-subnet1Name"
         },
         "nicName": {
-            "value": ""
+            "value": "GEN-UNIQUE"
+        },
+        "imageSKU": {
+            "value": "14.04.2-LTS"
         }
     }
 }
