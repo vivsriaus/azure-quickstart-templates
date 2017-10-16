@@ -7,6 +7,6 @@ Create a Standard Storage Account  - <a href="https://portal.azure.com/#create/M
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
-This template creates a Standard Storage account. For more information, see here:
+This template creates a Standard Storage account. For more information, see here: 
 
 http://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/
